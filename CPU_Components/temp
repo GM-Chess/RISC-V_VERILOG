@@ -1,0 +1,25 @@
+if(cin == 0 && (a == 1 && b == 0) && z == 1 && cout == 0) // 
+                        $display("pass.\n");
+                    else if(cin == 0 && (a == 0 && b == 1) && z == 1 && cout == 0) //
+                        $display("pass.\n");
+
+                    else if(cin == 1 && a ==0 && b == 0 && z == 1 && cout == 0) //
+                        $display("pass.\n");
+
+                    else if(cin == 1 && a == 1 && b == 0 && z == 1 && cout == 0)
+                        $display("pass.\n");
+
+                    else if(cin == 1 && a == 0 && b == 1 && z == 1 && cout == 0)
+                        $display("pass.\n");
+                    
+                    else if(cin == 0 && a == 1 && b == 1 && z == 0 && cout == 1)
+                        $display("pass.\n");
+                    
+                    else if(cin == a == b == z == cout == 0)//
+                        $display("pass.\n");
+                    
+                    else if(cin == a == b == z == cout == 1)//
+                        $display("pass.\n");
+                    
+                    else 
+                        $display("fail! a=%d b=%d cin=%d z=%d cout=%d", a, b, cin, cout);

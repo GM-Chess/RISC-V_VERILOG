@@ -1,0 +1,92 @@
+$date
+	Wed Nov 16 14:26:22 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module labL1 $end
+$var wire 1 ! z $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var integer 32 % i [31:0] $end
+$var integer 32 & j [31:0] $end
+$var integer 32 ' k [31:0] $end
+$scope module UUT $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 ( lower $end
+$var wire 1 ) notC $end
+$var wire 1 * upper $end
+$var wire 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+1)
+0(
+b0 '
+b0 &
+b0 %
+0$
+0#
+0"
+0!
+$end
+#20
+0)
+1$
+b1 '
+#40
+1)
+0$
+1#
+b1 &
+b0 '
+#60
+1!
+0)
+1*
+1$
+b1 '
+#80
+1(
+1!
+1)
+0*
+0$
+0#
+1"
+b1 %
+b0 &
+b0 '
+#100
+0!
+0(
+0)
+1$
+b1 '
+#120
+1!
+1(
+1)
+0$
+1#
+b1 &
+b0 '
+#140
+0(
+0)
+1*
+1$
+b1 '
+#160
+b10 %
+b10 &
+b10 '
